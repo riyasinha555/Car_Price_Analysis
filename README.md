@@ -1,13 +1,13 @@
-# 🚗 Car Price & Business Insights  
+#  Car Price & Business Insights  
 
-## 📘 Overview  
+##  Overview  
 This project explores a used car dataset to uncover the factors influencing car prices using **data cleaning**, **feature engineering**, and **regression analysis**.  
 
 By applying advanced data preprocessing and modeling techniques, this notebook transforms raw car data into **actionable business insights** that can optimize sales, pricing, and marketing strategies.  
 
 ---
 
-## 🧾 Dataset Summary  
+##  Dataset Summary  
 The dataset includes key attributes such as:  
 - **Brand** — Manufacturer of the car (BMW, Toyota, etc.)  
 - **Price** — Selling price of the vehicle  
@@ -19,7 +19,7 @@ The dataset includes key attributes such as:
 - **Year** — Year of manufacture  
 - **Model** — Model name of the vehicle  
 
-### 🧩 Engineered Features:
+###  Engineered Features:
 - `Car_Age` — Current year minus year of manufacture  
 - `Mileage_per_Year` — Average mileage per year  
 - `log_price` — Log-transformed price for normalization  
@@ -28,7 +28,7 @@ The dataset includes key attributes such as:
 
 ---
 
-## 🧹 Data Cleaning  
+##  Data Cleaning  
 Data cleaning included:  
 - Handling missing values  
 - Removing outliers in `Price`, `Mileage`, and `EngineV`  
@@ -39,7 +39,7 @@ The final cleaned dataset has **3816 rows and 14 columns.**
 
 ---
 
-## ⚙️ Feature Engineering  
+##  Feature Engineering  
 Feature engineering was performed to enhance model interpretability and business understanding.  
 
 Key transformations:
@@ -49,7 +49,7 @@ Key transformations:
 
 ---
 
-## 📊 Regression Model Summary  
+##  Regression Model Summary  
 A simple OLS regression was run to understand the impact of car age on log price.
 
 | Metric | Value |
@@ -97,15 +97,15 @@ Luxury car buyers often rebuy from the same brand family.
 ---
 
 ##  Strategic Recommendations  
-✅ Optimize prices using model-driven depreciation factors.  
-✅ Segment audiences by budget, luxury preference, and car type.  
-✅ Focus acquisition on **5–10-year-old cars** — high turnover, solid margins.  
-✅ Personalize ads based on brand and engine type insights.  
+ Optimize prices using model-driven depreciation factors.  
+ Segment audiences by budget, luxury preference, and car type.  
+ Focus acquisition on **5–10-year-old cars** — high turnover, solid margins.  
+ Personalize ads based on brand and engine type insights.  
 
 ---
 
 ##  Tools & Technologies  
-- **Python** 🐍  
+- **Python**   
 - **Pandas**, **NumPy** for data manipulation  
 - **Matplotlib**, **Seaborn** for visualization  
 - **Statsmodels** for regression analysis  
